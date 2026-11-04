@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#course-title {
+   padding: 20px;
+  background-color: rgb(8, 8, 95);
+  color: #fff;
+  display: block;
+  text-align: center;
+  /* width: 300px; */
+}
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* width: 300px; */
+  background-color: rgb(28, 25, 25);
+  color: white;
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  /* font-size: 20px; */
+}
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  /* padding: 20px; */
+}
+img {
+  width: 100px;
+}
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+.card {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 700px;
+  
+}
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+   background-color: blue;
+  color: #fff; 
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+h3{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(8, 8, 95);
+  color: #fff;
+}
+.country-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* align-items: center; */
+  margin-top: 20px;
+  width: 400px;
+}
+.web {
+  padding: 20px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+nav a:hover {
+	text-decoration: overline;
+}
