@@ -20,11 +20,14 @@
     gap: 40px;
     flex-direction: row;
   }
+  body {
+    font-family: "Roboto", sans-serif;
+}
   nav a {
     color: white;
     text-decoration: none;
   }
-  main h1 {
+  main h2 {
     text-align: center;
     padding: 20px;
   }
@@ -72,7 +75,7 @@
     color: white;
     text-decoration: none;
   }
-  main h1 {
+  main h2 {
     text-align: center;
     padding: 20px;
   }
@@ -97,4 +100,7 @@
   #menu {
     display: none;
   }
+}
+body {
+    font-family: "Roboto", sans-serif;
 }
