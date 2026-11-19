@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-    --primary-color: green;
+    --primary-color: rgba(0, 128, 0, 1);
     --global-padding:  20px;
 }
 
@@ -27,9 +27,6 @@ img {
   padding: var(--global-padding);
   border-bottom: 1px solid var(--primary-color);;
 }
-.weather {
-  text-align: center;
-}
 .data h2 {
   padding-bottom: 10px;
   font-size: 30px;
@@ -49,7 +46,7 @@ img {
 }
 main {
   text-align: center;
-  border-top: 10px solid black;
+  border-top: 10px solid rgba(0, 0, 0, 1);
 }
 .hero {
   background-color: white;
