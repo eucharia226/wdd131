@@ -35,17 +35,20 @@
   }
   img {
     width: 350px;
+    
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
   }
   .temple {
     display: grid;
+    gap: 2rem;
+    
     /* grid-template-columns: 1fr 1fr 1fr; */
   }
   figure {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    color: purple;
+    
   }
 
   nav a:hover{
@@ -106,4 +109,13 @@ footer {
 }
 body {
     font-family: "Roboto", sans-serif;
+}
+.temple figure{
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0;
+}
+
+.temple figure p {
+  padding-bottom: 10px;
 }
