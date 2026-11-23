@@ -42,7 +42,8 @@
     }
     .weather h2::after {
     content: "";
-    background-image: url("/images/weather.svg");
+    display: inline-block;
+    background-image: url("../images/weather.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 40px;
@@ -53,7 +54,7 @@
 
     .data h2,
 .weather h2 {
-    background-color: var(--primary-color);;
+    background-color: var(--primary-color);
     color: var(--white-color);
     padding: 12px;
     text-align: center;
